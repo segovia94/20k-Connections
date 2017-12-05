@@ -2,8 +2,10 @@
   "name": "20k-connections",
   "version": "1.0.0",
   "description": "Share your evangelism efforts",
-  "author": "Mark Miller <mark@zhukmedia.com>",
-  "private": true,
+  "author": "Bridges Community Church <info@connectbcc.org>",
+  "contributors": [
+    "Mark Miller <mark@zhukmedia.com>"
+  ],
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
