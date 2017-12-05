@@ -6,6 +6,11 @@
   "contributors": [
     "Mark Miller <mark@zhukmedia.com>"
   ],
+  "license" : "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/segovia94/20k-Connections"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
