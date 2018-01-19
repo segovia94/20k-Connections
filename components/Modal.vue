@@ -108,7 +108,7 @@ export default {
 
   &__content {
     width: 75%;
-    max-width: 350px;
+    max-width: 410px;
     min-width: 200px;
     border-radius: 5px;
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, .5);
@@ -180,8 +180,8 @@ export default {
   width: 100%;
 
   &__input {
-    width: 90%;
-    height: 30px;
+    width: 95%;
+    height: 42px;
     margin-bottom: 5px;
     font-size: 16px;
     border: 1px solid rgba(0, 0, 0, .5);
@@ -205,6 +205,7 @@ export default {
   }
 
   &__submit {
+    appearance: none;
     white-space: nowrap;
     display: inline-block;
     height: 40px;
