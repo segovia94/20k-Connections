@@ -15,6 +15,12 @@ module.exports = {
       { innerHTML: 'This website requires JavaScript.' }
     ]
   },
+  render: {
+    // Set cache max-age for static images.
+    static: {
+      maxAge: 1000 * 60 * 60 * 24 * 7
+    }
+  },
   css: [
     // CSS file in the project
     '@/assets/css/main.css'
