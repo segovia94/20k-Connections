@@ -6,10 +6,10 @@
   "contributors": [
     "Mark Miller <mark@zhukmedia.com>"
   ],
-  "license" : "MIT",
+  "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/segovia94/20k-Connections"
+    "type": "git",
+    "url": "https://github.com/segovia94/20k-Connections"
   },
   "scripts": {
     "dev": "nuxt",
@@ -20,24 +20,24 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^1.0.2",
-    "bad-words": "^1.5.1",
-    "firebase": "^4.6.1",
-    "nuxt": "^1.0.0-rc11",
-    "vue-timeago": "^3.4.0"
+    "@nuxtjs/pwa": "^2.0.8",
+    "bad-words": "1.5.1",
+    "firebase": "^4.13.1",
+    "nuxt": "^1.4.1",
+    "vue-timeago": "^3.4.4"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
-    "css-loader": "^0.28.7",
-    "eslint": "^4.3.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
     "eslint-config-standard": "^10.2.1",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-html": "^3.1.1",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "node-sass": "^4.6.0",
-    "sass-loader": "^6.0.6"
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^6.0.7"
   }
 }
