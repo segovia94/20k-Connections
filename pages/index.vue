@@ -9,7 +9,7 @@
       <div class="connection-question">In which of the following seven ways have you connected with unbelievers?</div>
 
       <div class="connection-grid">
-        <connection-button v-for="type in connectionTypes" key="button.key" :type="type" />
+        <connection-button v-for="type in connectionTypes" :key="type.type" :type="type" />
       </div>
 
       <div class="totals">

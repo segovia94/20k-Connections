@@ -2,7 +2,7 @@
   <div class='connection-feed'>
     <h3 class='connection-feed__title'>Recent Connections</h3>
     <div v-if="feed.length">
-      <feed-item v-for="item in feed" key="item.type" :item="item" />
+      <feed-item v-for="item in feed" :key="item.id" :item="item" />
     </div>
     <div v-else>
       <loader />
